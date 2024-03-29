@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from utils import sigmoid,relu,leaky_relu,tanh
 # Generate x values
-x = np.linspace(-5, 5, 100)
+x = np.linspace(-5, 5, 200) #added bugfix
 
 # Compute y values for each activation function
 y_sigmoid = sigmoid(x)
